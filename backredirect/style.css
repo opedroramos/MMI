@@ -7,7 +7,7 @@
     src: url('../fonts/Montserrat-VariableFont_wght.ttf');
 }
 body{
-    background-color: #000000;
+    background-color: #ffffff;
 }
 #container{
     max-width: 940px;
@@ -29,10 +29,10 @@ body{
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 .conteudo1{
-    background-color: #000000;
+    background-color: #004AAD;
     max-width: 240px;
     padding: 30px;
     border-radius: 20px;
@@ -40,7 +40,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 10px 1px #10CB1C;
+    box-shadow: 0px 0px 10px 1px #000000;
 }
 .imgb{
     max-width: 100%;
@@ -86,7 +86,7 @@ body{
 }
 #apenas{
     font-size: 30px;
-    color: #ffffff;
+    color: #000000;
 }
 #preçodes{
     font-size: 50px;
@@ -98,7 +98,7 @@ body{
     align-items: center;
     padding: 30px;
     flex-direction: column;
-    background-color: #121212;
+    background-color: #f5f5f5;
     margin-top: 100px;
 }
 #agruparr{
@@ -138,7 +138,7 @@ body{
 #rodape2{
     display: flex;
     justify-content: center;
-    background-color: #000000;
+    background-color: #f5f5f5;
     padding: 20px;
     flex-direction: column;
     align-items: center;
@@ -185,10 +185,10 @@ p{
         align-items: center;
         flex-wrap: wrap;
         gap: 20px;
-        background-color: #000000;
+        background-color: #ffffff;
     }
     .conteudo1{
-        background-color: #000000;
+        background-color: #004AAD;
         max-width: 240px;
         padding: 20px;
         border-radius: 13.3px;
@@ -196,7 +196,7 @@ p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        box-shadow: 0px 0px 10px 1px #10CB1C;
+        box-shadow: 0px 0px 10px 1px #000000;
     }
     .imgb{
         max-width: 100%;
@@ -217,6 +217,25 @@ p{
         margin: 0px auto;
         text-align: center;
     }
+    #preço{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #preçoalto{
+        font-size: 30px;
+        color: #FF0000;
+    
+    }
+    #apenas{
+        font-size: 30px;
+        color: #000000;
+    }
+    #preçodes{
+        font-size: 50px;
+        color: #00DD00;
+    }
     #botao{
         background: linear-gradient(to top,#009900, #00DD00) ;
         text-decoration: none;
@@ -235,7 +254,7 @@ p{
         align-items: center;
         padding: 20px;
         flex-direction: column;
-        background-color: #121212;
+        background-color: #f5f5f5;
         margin-top: 100px;
     }
     #agruparr{
@@ -275,7 +294,7 @@ p{
     #rodape2{
         display: flex;
         justify-content: center;
-        background-color: #000000;
+        background-color: #f5f5f5;
         padding: 13.3px;
         flex-direction: column;
         align-items: center;
