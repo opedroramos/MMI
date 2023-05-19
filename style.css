@@ -68,7 +68,7 @@ mark.corr{
     font-size: 14px;
     margin-bottom: 10px;
     text-align: center;
-    color: #00CFFF;
+    color: #777777;
 }
 #rodape{
     display: flex;
@@ -79,7 +79,7 @@ mark.corr{
 #termo{
     font-size: 14px;
     font-family: "M";
-    color: #00CFFF;
+    color: #777777;
     font-weight: initial;
     margin-right: 10px;
     text-decoration: none;
@@ -87,7 +87,7 @@ mark.corr{
 #privacidade{
     font-size: 14px;
     font-family: "M";
-    color: #00CFFF;
+    color: #777777;
     font-weight: initial;
     margin-left: 10px;
     text-decoration: none;
@@ -107,19 +107,19 @@ mark.corr{
     margin-bottom: 25px;
     text-align: center;
     max-width: 940px;
-    color: #00CFFF;
+    color: #777777;
 }
 p.barra{
     font-size: 14px;
     font-weight: initial;
     font-family: "M";
-    color: #00CFFF;
+    color: #777777;
 }
 p{
     font-size: 16px;
     font-weight: bold;
     font-family: "M";
-    color: #00CFFF;
+    color: #777777;
 }
 @media only screen and (max-width: 768px) {
     #container{
@@ -178,7 +178,7 @@ p{
         font-size: 12px;
         margin-bottom: 6.6px;
         text-align: center;
-        color: #00CFFF;
+        color: #777777;
     }
     #rodape{
         display: flex;
@@ -189,7 +189,7 @@ p{
     #termo{
         font-size: 12px;
         font-family: "M";
-        color: #00CFFF;
+        color: #777777;
         font-weight: initial;
         margin-right: 6.6px;
         text-decoration: none;
@@ -197,7 +197,7 @@ p{
     #privacidade{
         font-size: 12px;
         font-family: "M";
-        color: #00CFFF;
+        color: #777777;
         font-weight: initial;
         margin-left: 6.6px;
         text-decoration: none;
@@ -217,18 +217,18 @@ p{
         margin-bottom: 16.6px;
         text-align: center;
         max-width: 940px;
-        color: #00CFFF;
+        color: #777777;
     }
     p.barra{
         font-size: 12px;
         font-weight: initial;
         font-family: "M";
-        color: #00CFFF;
+        color: #777777;
     }
     p{
         font-size: 14px;
         font-weight: bold;
         font-family: "M";
-        color: #00CFFF;
+        color: #777777;
     }
 }/*divisao por 1,5 */
