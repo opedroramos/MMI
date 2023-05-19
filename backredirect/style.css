@@ -7,7 +7,9 @@
     src: url('../fonts/Montserrat-VariableFont_wght.ttf');
 }
 body{
-    background-color: #ffffff;
+    background-image: url(../imagem/imgpaginammicerto.png);
+    background-repeat: no-repeat;
+    background-color: #000000;
 }
 #container{
     max-width: 940px;
@@ -29,10 +31,8 @@ body{
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
-    background-color: #ffffff;
 }
 .conteudo1{
-    background-color: #004AAD;
     max-width: 240px;
     padding: 30px;
     border-radius: 20px;
@@ -40,14 +40,15 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 10px 1px #000000;
+    box-shadow: 0px 0px 10px 1px #00CFFF;
+    backdrop-filter: blur(30px);
 }
 .imgb{
     max-width: 100%;
     margin: 20px;
 }
 .benefi{
-    color: #10CB1C;
+    color: #00CFFF;
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -86,7 +87,7 @@ body{
 }
 #apenas{
     font-size: 30px;
-    color: #000000;
+    color: #ffffff;
 }
 #preçodes{
     font-size: 50px;
@@ -98,7 +99,7 @@ body{
     align-items: center;
     padding: 30px;
     flex-direction: column;
-    background-color: #f5f5f5;
+    background-color: #000000;
     margin-top: 100px;
 }
 #agruparr{
@@ -111,7 +112,7 @@ body{
     font-size: 14px;
     margin-bottom: 10px;
     text-align: center;
-    color: #666666;
+    color: #32747A;
 }
 #rodape{
     display: flex;
@@ -122,7 +123,7 @@ body{
 #termo{
     font-size: 14px;
     font-family: "M";
-    color: #666666;
+    color: #32747A;
     font-weight: initial;
     margin-right: 10px;
     text-decoration: none;
@@ -130,7 +131,7 @@ body{
 #privacidade{
     font-size: 14px;
     font-family: "M";
-    color: #666666;
+    color: #32747A;
     font-weight: initial;
     margin-left: 10px;
     text-decoration: none;
@@ -138,7 +139,7 @@ body{
 #rodape2{
     display: flex;
     justify-content: center;
-    background-color: #f5f5f5;
+    background-color: #000000;
     padding: 20px;
     flex-direction: column;
     align-items: center;
@@ -150,19 +151,19 @@ body{
     margin-bottom: 25px;
     text-align: center;
     max-width: 940px;
-    color: #666666;
+    color: #32747A;
 }
 p.barra{
     font-size: 14px;
     font-weight: initial;
     font-family: "M";
-    color: #666666;
+    color: #32747A;
 }
 p{
     font-size: 16px;
     font-weight: bold;
     font-family: "M";
-    color: #666666;
+    color: #32747A;
 }
 @media only screen and (max-width: 768px) {
     #container{
@@ -185,10 +186,8 @@ p{
         align-items: center;
         flex-wrap: wrap;
         gap: 20px;
-        background-color: #ffffff;
     }
     .conteudo1{
-        background-color: #004AAD;
         max-width: 240px;
         padding: 20px;
         border-radius: 13.3px;
@@ -196,14 +195,14 @@ p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        box-shadow: 0px 0px 10px 1px #000000;
+        box-shadow: 0px 0px 10px 1px #00CFFF;
     }
     .imgb{
         max-width: 100%;
         margin: 20px;
     }
     .benefi{
-        color: #10CB1C;
+        color: #00CFFF;
         font-size: 18px;
         margin-bottom: 6.6px;
     }
@@ -230,7 +229,7 @@ p{
     }
     #apenas{
         font-size: 30px;
-        color: #000000;
+        color: #ffffff;
     }
     #preçodes{
         font-size: 50px;
@@ -254,7 +253,7 @@ p{
         align-items: center;
         padding: 20px;
         flex-direction: column;
-        background-color: #f5f5f5;
+        background-color: #000000;
         margin-top: 100px;
     }
     #agruparr{
@@ -267,7 +266,7 @@ p{
         font-size: 12px;
         margin-bottom: 6.6px;
         text-align: center;
-        color: #666666;
+        color: #32747A;
     }
     #rodape{
         display: flex;
@@ -278,7 +277,7 @@ p{
     #termo{
         font-size: 12px;
         font-family: "M";
-        color: #666666;
+        color: #32747A;
         font-weight: initial;
         margin-right: 6.6px;
         text-decoration: none;
@@ -286,7 +285,7 @@ p{
     #privacidade{
         font-size: 12px;
         font-family: "M";
-        color: #666666;
+        color: #32747A;
         font-weight: initial;
         margin-left: 6.6px;
         text-decoration: none;
@@ -294,7 +293,7 @@ p{
     #rodape2{
         display: flex;
         justify-content: center;
-        background-color: #f5f5f5;
+        background-color: #000000;
         padding: 13.3px;
         flex-direction: column;
         align-items: center;
@@ -306,18 +305,18 @@ p{
         margin-bottom: 16.6px;
         text-align: center;
         max-width: 940px;
-        color: #666666;
+        color: #32747A;
     }
     p.barra{
         font-size: 12px;
         font-weight: initial;
         font-family: "M";
-        color: #666666;
+        color: #32747A;
     }
     p{
         font-size: 14px;
         font-weight: bold;
         font-family: "M";
-        color: #666666;
+        color: #32747A;
     }
 }/*divisao por 1,5 */
