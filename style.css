@@ -98,7 +98,7 @@ mark.corr{
     font-family: "M";
     border-radius: 16px;
     font-weight: bold;
-    margin: 30px auto;
+    margin: 40px 10px;
     cursor: pointer;
 }
 #biografia{
@@ -276,7 +276,7 @@ p{
         font-family: "M";
         border-radius: 10.6px;
         font-weight: bold;
-        margin: 20px auto;
+        margin: 40px 10px;
         width: 80%;
     }
     #biografia{
