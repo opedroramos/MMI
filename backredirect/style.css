@@ -216,6 +216,18 @@ p{
         margin: 0px auto;
         text-align: center;
     }
+    #botao{
+        background: linear-gradient(to top,#009900, #00DD00) ;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 13.3px;
+        font-size: 18px;
+        font-family: "M";
+        border-radius: 10.6px;
+        font-weight: bold;
+        margin: 20px auto;
+        width: 80%;
+    }
     #preço{
         display: flex;
         justify-content: center;
@@ -234,18 +246,6 @@ p{
     #preçodes{
         font-size: 50px;
         color: #00DD00;
-    }
-    #botao{
-        background: linear-gradient(to top,#009900, #00DD00) ;
-        text-decoration: none;
-        color: #ffffff;
-        padding: 13.3px;
-        font-size: 18px;
-        font-family: "M";
-        border-radius: 10.6px;
-        font-weight: bold;
-        margin: 20px auto;
-        width: 80%;
     }
     #rodape1{
         display: flex;

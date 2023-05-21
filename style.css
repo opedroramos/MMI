@@ -7,7 +7,8 @@
     src: url('fonts/Montserrat-VariableFont_wght.ttf');
 }
 body{
-    background-image: url(imagem/backgroundharv.png);
+    background: #000000 url(imagem/imgpaginammicerto.png);
+    background-repeat: no-repeat;
 }
 .smartplayer-call-action.callaction_64020537f29028000a873269_0 a.smartplayer-call-action--link{
     font-family: "M";
@@ -45,6 +46,71 @@ h3.cor{
 mark.corr{
     color: #C4170C;
     background-color: #ffffff00;
+}
+#esconder{
+    display: none;
+}
+#beneficios{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.conteudo1{
+    max-width: 240px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 1px #00CFFF;
+    backdrop-filter: blur(30px);
+}
+.imgb{
+    max-width: 100%;
+    margin: 20px;
+}
+.benefi{
+    color: #00CFFF;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.benef{
+    color: #ffffff;
+    font-size: 16px;
+}
+#botaopai{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    text-align: center;
+}
+#botao{
+    background: linear-gradient(to top,#009900, #00DD00) ;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px 20px;
+    font-size: 30px;
+    font-family: "M";
+    border-radius: 16px;
+    font-weight: bold;
+    margin: 30px auto;
+    cursor: pointer;
+}
+#biografia{
+    display: flex;
+    margin: 100px auto;
+    align-items: center;
+}
+#imgbio{
+    width: 40%;
+}
+#pbio{
+    color: #ffffff;
 }
 #rodape1{
     display: flex;
@@ -122,6 +188,10 @@ p{
     color: #777777;
 }
 @media only screen and (max-width: 768px) {
+    body{
+        background: #000000 url(imagem/imgpaginammicerto.png);
+        background-repeat: no-repeat;
+    }
     #container{
         max-width: 940px;
         margin: 0px auto;
@@ -155,6 +225,73 @@ p{
     mark.corr{
         color: #C4170C;
         background-color: #ffffff00;
+    }
+    #esconder{
+        display: none;
+    }
+    #beneficios{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .conteudo1{
+        max-width: 240px;
+        padding: 20px;
+        border-radius: 13.3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px 1px #00CFFF;
+    }
+    .imgb{
+        max-width: 100%;
+        margin: 20px;
+    }
+    .benefi{
+        color: #00CFFF;
+        font-size: 18px;
+        margin-bottom: 6.6px;
+    }
+    .benef{
+        color: #ffffff;
+        font-size: 16px;
+    }
+    #botaopai{
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+        text-align: center;
+    }
+    #botao{
+        background: linear-gradient(to top,#009900, #00DD00) ;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 13.3px;
+        font-size: 18px;
+        font-family: "M";
+        border-radius: 10.6px;
+        font-weight: bold;
+        margin: 20px auto;
+        width: 80%;
+    }
+    #biografia{
+        display: flex;
+        flex-direction: column;
+        margin: 100px auto;
+        align-items: center;
+        text-align: center;
+    }
+    #imgbio{
+        width: 70%;
+    }
+    #pbio{
+        color: #ffffff;
+        font-size: 16px;
     }
     #rodape1{
         display: flex;
