@@ -4,5 +4,5 @@ setTimeout(
         
         elemento.style.display = "block";
         
-    }, 5000)
+    }, 360000)
     /*tempo em milisegundos*/
